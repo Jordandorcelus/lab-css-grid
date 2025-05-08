@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zone {
+    border: 5px solid black;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    min-height: 100vh;
+}
+
+.one_white {
+    grid-row: span 4;
+}
+
+.two_white {
+    grid-column: span 7;
+}
+
+.three_white {
+    grid-column: span 8;
+}
+
+.four_white {
+    grid-row: span 10;
+}
+
+.five_yellow {
+    background-color: yellow;
+    grid-row: span 10;
+}
+
+.six_blue {
+    background-color: blue;
+    grid-column: span 7;
+    grid-row: span 3;
+}
+
+.seven_white {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.eight_blue {
+    background-color: blue;
+    grid-column: span 5;
+    grid-row: span 3;
+}
+
+.nine_black {
+    background-color: black;
+    grid-row: span 9;
+}
+
+.ten_white {
+    grid-column: span 2;
+    grid-row: span 9;
+}
+
+.eleven_black {
+    background-color: black;
+    grid-row: span 9;
+}
+
+.twelve_white {
+    grid-column: span 3;
+    grid-row: span 6;
+}
+
+.third_white {
+    grid-row: span 6;
+}
+
+.fourth_yellow {
+    background-color: yellow;
+    grid-column: span 3;
+    grid-row: span 6;
+}
+
+.fith_red {
+    background-color: red;
+    grid-column: span 4;
+    grid-row: span 6;
+}
+
+.sixth_red {
+    background-color: red;
+    grid-row: span 6;
+}
+
+.seventh_yellow {
+    background-color: yellow;
+    grid-row: span 3;
+}
+
+.eightth_red {
+    background-color: red;
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.nineth_blue {
+    background-color: blue;
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.twenty_white {
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+.twentyone_white {
+    grid-row: span 3;
+}
+
+.twentytwo_black {
+    background-color: black;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.twentythree_white {
+    grid-row: span 6;
+}
+
+.twentyfour_red {
+    background-color: red;
+    grid-column: span 2;
+    grid-row: span 6;
+}
+
+.twentyfive_black {
+    background-color: black;
+    grid-row: span 6;
+}
+
+.twentysix_yellow {
+    background-color: yellow;
+    grid-row: span 7;
+}
+
+.twentyseven_white {
+    grid-column: span 5;
+    grid-row: span 4;
+}
+
+.twentyeight_white {
+    grid-column: span 3;
+    grid-row: span 4;
+}
+
+.twentynine_blue {
+    background-color: blue;
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.thirty_yellow {
+    background-color: yellow;
+    grid-row: span 4;
+}
+
+.thirtyone_white {
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.thirtytwo_white {
+    grid-column: 1 / span 4;
+}
+
+.thirtythree_red {
+    background-color: red;
+    grid-column: 6 / span 3;
+    grid-row: 18 / span 3;
+}
+
+.thirtyfour_black {
+    background-color: black;
+    grid-column: 9 / span 5;
+    grid-row: 18 / span 3;
+}
+
+.thirtyfive_white {
+    grid-column: 14 / span 5;
+    grid-row: 18 / span 3;
+}
+
+
+
